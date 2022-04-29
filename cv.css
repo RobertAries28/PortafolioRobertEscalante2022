@@ -1,0 +1,619 @@
+body {
+    width: 90%;
+    margin: auto;
+    background: #C0C0C0;
+}
+
+
+/* header*/
+
+.l-container {
+    max-width: 1200px;
+    padding-right: 1rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    height: 100%;
+}
+
+.main-header {
+    width: 100%;
+    height: 4rem;
+    border-bottom: 1px solid #ccc;
+    margin: auto;
+    background-color: #53575A;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.main-header h1 {
+    color: white;
+    font-size: 25px;
+    background: black;
+    margin: 0 0px;
+    padding: 16px 8.7%;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.main-header__block {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+.main-menu li {
+    padding: 0 20px;
+}
+
+.main-header a {
+    font-weight: bold;
+}
+
+.main-menu__link {
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 18px;
+}
+
+.main-menu__link:hover {
+    border-bottom: 3px solid #FFE933;
+}
+
+.main-logo {
+    height: 2rem;
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    background: white;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    grid-template-areas: "datos formacion";
+}
+
+.datos {
+    grid-area: datos;
+    background: #535353;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.datos h2 {
+    font-family: 'Gudea', sans-serif;
+    font-size: 20px;
+}
+
+.datos li {
+    font-size: 17px;
+    list-style: none;
+    line-height: 2em;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.datos ul {
+    padding: 0px;
+}
+
+hr {
+    background: white;
+}
+
+.datos div {
+    margin: 0 25px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+    background: white;
+    border-radius: 50%;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+    background: white;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    color: white;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    border-radius: 50%;
+}
+
+.hobbies i {
+    color: white;
+    text-align: center;
+}
+
+.hobbies a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.hobbies-iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.redes-iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes-iconos i {
+    margin: 10px;
+}
+
+.formacion {
+    grid-area: formacion;
+    padding: 30px;
+}
+
+.titulo h1 {
+    font-size: 35px;
+    font-family: 'Gudea', sans-serif;
+    margin: 0;
+}
+
+.titulo h3 {
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+    margin: 0;
+    color: lightslategray;
+}
+
+.titulo hr {
+    background: #C1C0C0;
+    color: #C1C0C0;
+}
+
+.perfil {
+    padding-top: 40px;
+}
+
+.perfil p {
+    margin: 5px 0;
+    line-height: 25px;
+}
+
+.perfil-iconos {
+    display: flex;
+    align-items: center;
+}
+
+.perfil-iconos i {
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.raya {
+    width: 100%;
+    height: 1px;
+    background: #C1C0C0;
+    margin-left: 20px;
+}
+
+.objetivo {
+    padding-top: 20px;
+}
+
+.objetivo p {
+    margin: 5px 0;
+    line-height: 25px;
+}
+
+.objetivo-iconos {
+    display: flex;
+    align-items: center;
+}
+
+.objetivo-iconos i {
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.educacion {
+    padding-top: 20px;
+}
+
+.educacion ul {
+    margin: 5px;
+    padding-left: 20px;
+}
+
+.educacion li {
+    line-height: 25px;
+    list-style-type: circle;
+}
+
+.educacion-iconos {
+    display: flex;
+    align-items: center;
+}
+
+.educacion-iconos i {
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.experiencia {
+    padding-top: 20px;
+}
+
+.experiencia-iconos {
+    display: flex;
+    align-items: center;
+}
+
+.experiencia-iconos i {
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.experiencia ul {
+    margin: 5px;
+    padding-left: 20px;
+}
+
+.experiencia li {
+    line-height: 25px;
+    list-style-type: circle;
+}
+
+.experiencia h4,
+h3 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.conocimientos {
+    padding-top: 20px;
+}
+
+.conocimientos-iconos {
+    display: flex;
+    align-items: center;
+}
+
+.conocimientos-iconos i {
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.temas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.temas__letra {
+    position: relative;
+    text-align: center;
+    top: 80%;
+    z-index: 50;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+
+/*barra progreso*/
+
+.contenedor {
+    width: 200px;
+    min-width: 200px;
+    height: 22px;
+    border: 1px solid black;
+    align-self: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.relleno {
+    width: 0px;
+    height: 100%;
+    background: lightgrey;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    animation-name: coloreado;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(.17, .67, .83, .67);
+    animation-fill-mode: forwards;
+}
+
+.numb {
+    font-size: 20px;
+}
+
+.numero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.relleno80 {
+    animation-name: coloreado80;
+}
+
+.relleno60 {
+    animation-name: coloreado60;
+}
+
+.relleno90 {
+    animation-name: coloreado90;
+}
+
+.contenedor h2 {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.contenedor h3 {
+    text-align: center;
+    margin: 10px auto;
+    padding: 0;
+    font-size: 15px;
+}
+
+@keyframes coloreado {
+    10% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes coloreado80 {
+    10% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes coloreado60 {
+    10% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes coloreado90 {
+    10% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+
+/*** foooter **/
+
+footer {
+    width: 100%;
+    margin: auto;
+    padding: 30px 0;
+    color: white;
+    background: #141618;
+}
+
+.footercontacto h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.footercontacto {
+    padding: 0 40px;
+}
+
+.footerredes {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+footer .fa-facebook-f {
+    background: #3b5998;
+}
+
+footer .fa-facebook-messenger {
+    background: #0084ff;
+}
+
+footer .fa-whatsapp {
+    background: #25d366;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+footer i {
+    padding: 5px;
+    cursor: pointer;
+}
+
+footer .footerdatos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+@media screen and (max-width:767px) {
+    body {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+        margin: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "datos datos" "formacion formacion";
+    }
+    header {
+        width: 100%;
+        margin: auto;
+    }
+    .datos {
+        width: 100%;
+    }
+    .formacion {
+        margin: 0;
+        padding: 20px;
+    }
+    aside .contacto {
+        margin: 0;
+        padding: 10px;
+    }
+    aside .datos_personales {
+        margin: 0;
+        padding: 10px;
+    }
+    aside .redes {
+        margin: 0;
+        padding: 10px;
+    }
+    aside .hobbies {
+        margin: 0;
+        padding: 10px;
+    }
+    aside .hobbies-iconos {
+        margin: 0;
+    }
+    div .redes-iconos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0;
+        margin: 30px;
+    }
+    .hobbies-iconos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-menu__item {
+        padding: .5rem 0 .5rem 1rem
+    }
+    .main-menu__link {
+        color: white;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .main-nav {
+        position: fixed;
+        height: calc(100vh - 4rem);
+        width: 80wh;
+        background: rgba(0, 0, 0, 0.3);
+        top: 4rem;
+        right: -80vw;
+    }
+    .main-menu {
+        flex-direction: column;
+    }
+    .main-menu li {
+        padding: 10px 0;
+    }
+    .show {
+        right: 0px;
+        transition: all 1s;
+    }
+    .main-menu-toggle {
+        width: 2.4rem;
+        height: 1.6rem;
+        background: linear-gradient(black 20%, transparent 20%, transparent 40%, black 40%, black 60%, transparent 60%, transparent 80%, black 80%);
+        cursor: pointer;
+    }
+    .cabecera img {
+        width: 100%;
+        left: 0;
+    }
+    .cabecera-secundario {
+        position: relative;
+        margin: auto;
+        border: 1px solid black;
+    }
+    /* footer*/
+    footer .footerdatos {
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+    footer {
+        padding: 20px 0;
+    }
+    footer h3 {
+        margin: 10px 0;
+        text-align: center;
+    }
+    footer .contacto {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1100px) {
+    section {
+        grid-template-columns: 40% 60%;
+        grid-template-rows: auto;
+        grid-template-areas: "datos formacion";
+    }
+}
